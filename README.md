@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Life OS
 
-## Getting Started
+AI Life OS is an AI-powered productivity system designed to help students and professionals avoid missed deadlines and burnout before they happen.
 
-First, run the development server:
+The system analyzes workload, deadlines, progress, availability, and stress signals to predict risk and generate personalized action plans.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* Deadline risk prediction engine
+* Burnout risk analysis
+* Task management system
+* Personalized AI recommendations
+* Progress tracking
+* Persistent local storage
+* Modern dashboard UI
+* Fully responsive design
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## How It Works
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Add tasks and deadlines
+2. Track progress and estimated workload
+3. The system calculates deadline risk scores
+4. Burnout signals are analyzed based on workload and energy patterns
+5. AI recommendations suggest the best next action
 
-## Learn More
+Example:
 
-To learn more about Next.js, take a look at the following resources:
+> “Your ML assignment is becoming high risk. Study for 45 minutes tonight to reduce deadline pressure.”
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* **Frontend:** Next.js 16, React, TypeScript
+* **Styling:** Tailwind CSS
+* **State Management:** React Hooks
+* **Storage:** Local Storage (MVP)
+* **Deployment:** Vercel
+* **Version Control:** Git + GitHub
 
-## Deploy on Vercel
+## Future Improvements
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* OpenAI-powered personalized strategist
+* Google Calendar integration
+* Authentication system
+* Supabase database
+* Analytics dashboard
+* Habit and learning tracking
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Live Demo
+
+https://ai-life-os-nine.vercel.app/
